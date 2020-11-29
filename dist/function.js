@@ -6,17 +6,16 @@ function printResult(input) {
     console.log("result is :", input);
 }
 printResult(add(5, 6));
-var functionCallType;
+let functionCallType;
 functionCallType = add;
 function HandleWithCallBack(ip1, ip2, cb) {
     cb(ip1 + ip2);
 }
-var RefHandleWithCallBack;
-HandleWithCallBack(7, 6, function (val) {
+let RefHandleWithCallBack;
+HandleWithCallBack(7, 6, (val) => {
     console.log("val ", val);
 });
 RefHandleWithCallBack = HandleWithCallBack;
-RefHandleWithCallBack(4, 6, function (refval) {
+RefHandleWithCallBack(4, 6, (refval) => {
     console.log("refval ", refval);
 });
-// functionCallType = printResult;
