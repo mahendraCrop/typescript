@@ -22,3 +22,4 @@ console.log("description ", DeptObj.description());
 console.log("name ", DeptObj.name);
 DeptObj.addEmployes("mahendra nath");
 console.log("employes list ", DeptObj.employesList());
+//# sourceMappingURL=app.js.map

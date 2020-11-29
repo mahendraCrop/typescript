@@ -20,3 +20,4 @@ favorites.map((favorite) => {
 if (person.role == Role.ADMIN) {
     console.log("person role is ", Role.ADMIN);
 }
+//# sourceMappingURL=obj-arry-enum.js.map

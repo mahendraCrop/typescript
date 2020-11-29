@@ -19,3 +19,4 @@ RefHandleWithCallBack = HandleWithCallBack;
 RefHandleWithCallBack(4, 6, (refval) => {
     console.log("refval ", refval);
 });
+//# sourceMappingURL=function.js.map

@@ -14,3 +14,4 @@ let number2 = 2.5;
 Combiner(number1, number2, "as_number");
 Combiner("5", "6", "as_number");
 Combiner("mahe", "bobbari", "as_text");
+//# sourceMappingURL=union-leteral-customrtype.js.map
